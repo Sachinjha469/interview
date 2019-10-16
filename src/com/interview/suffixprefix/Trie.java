@@ -110,7 +110,7 @@ public class Trie {
     }
 
     /**
-     * Delete word from trie.
+     * Deleting word from trie.
      */
     public void delete(String word) {
         delete(root, word, 0);
